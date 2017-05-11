@@ -63,4 +63,17 @@
 
 ### Visão Macro
 
-  ![Ciclo] (https://raw.githubusercontent.com/zekitow/scrum-workshop/master/imgs/01.cycle.png)
+![Ciclo](https://raw.githubusercontent.com/zekitow/scrum-workshop/master/imgs/01.cycle.png)
+
+### Então
+
+  1. É criado o **backlog**
+  2. Os Devs elegem as **histórias** para o **Sprint-Backlog** de acordo com as pendências
+    2.1. O time realiza um **Planning poker** para mensurar o **Sprint-Backlog**
+  3. **Time**, **Scrum Master** e **P.O.** fazem **Groomings** esclarecer as histórias (**1x ou 2x na semana, durante 1 hora no máximo**)
+  4. **Time** começa a trabalhar no **Sprint**
+    4.1. **Time** e **Scrum Master** fazem o **daily meeting**
+    4.1. **Scrum Master** ou o **Time** atualiza o **BurnDown**
+  5. **Time** e **Scrum Master** apresentam o resultado do **Sprint** ao **P.O.**
+  6. **Time** e **Scrum Master** fazem uma retrospectiva do **Sprint** (máximo de 1 hora)
+  7. Voltamos ao primeiro passo
