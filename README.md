@@ -77,3 +77,15 @@
   5. **Time** e **Scrum Master** apresentam o resultado do **Sprint** ao **P.O.**
   6. **Time** e **Scrum Master** fazem uma retrospectiva do **Sprint** (máximo de 1 hora)
   7. Voltamos ao primeiro passo
+
+
+#### Ferramentas Auxiliáres e métricas
+
+  Explicar:
+
+    1. **Planning Poker**
+    2. **Kanban**
+    3. **Burn Down**
+    4. **Velocidade do time**
+    5. **Time-boxing**
+    6. ??
