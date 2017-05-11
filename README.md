@@ -83,9 +83,9 @@
 
   Explicar:
 
-    1. **Planning Poker**
-    2. **Kanban**
-    3. **Burn Down**
-    4. **Velocidade do time**
-    5. **Time-boxing**
-    6. ??
+  1. **Planning Poker**
+  2. **Kanban**
+  3. **Burn Down**
+  4. **Velocidade do time**
+  5. **Time-boxing**
+  6. ??
