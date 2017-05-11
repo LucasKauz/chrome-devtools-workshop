@@ -61,3 +61,6 @@
   6. **Retrospectiva:**
     Reunião com o time e o Scrum Master após a entrega do Sprint para saber o que deu certo e o que pode ser melhorado e como melhorar.
 
+### Visão Macro
+
+  ![Ciclo] (https://raw.githubusercontent.com/zekitow/scrum-workshop/master/imgs/01.cycle.png)
