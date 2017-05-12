@@ -92,3 +92,7 @@
   ![Planning Poker](https://raw.githubusercontent.com/zekitow/scrum-workshop/master/imgs/02.planning-poker.jpg)
   * Conceito de **Épico**!
   
+
+##### Kanban
+
+  ![Kanban](https://raw.githubusercontent.com/zekitow/scrum-workshop/master/imgs/03.kanban.jpg)
