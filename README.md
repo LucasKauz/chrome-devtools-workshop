@@ -97,7 +97,7 @@
 
 ##### Burn Down
 
-  ![Burn Down](https://raw.githubusercontent.com/zekitow/scrum-workshop/master/imgs/04.burndown.jpg)
+  ![Burn Down](https://raw.githubusercontent.com/zekitow/scrum-workshop/master/imgs/04.burndown.png)
 
   Mede o progresso do sprint e dá indicativos do processo de trabalho da equipe
 
