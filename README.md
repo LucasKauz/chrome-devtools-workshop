@@ -78,21 +78,28 @@
   6. **Time** e **Scrum Master** fazem uma retrospectiva do **Sprint** (máximo de 1 hora)
   7. Voltamos ao primeiro passo
 
-
 #### Ferramentas Auxiliáres e métricas
 
-  1. **Planning Poker:** Determina o esforço para desenvolver uma determinada tarefa, onde os desenvolvedores pontuam e dicutem como será implementada cada feature e assim fica possível mensurar a quantidade de tarefas que haverá no Sprint. 
-  2. **Kanban:** O famoso TO-DO / Working / Testing / Done!
-  3. **Burn Down:** Mede o progresso do sprint e dá indicativos do processo de trabalho da equipe
-  4. **Velocidade do time:** Aplicando o **Planning Poker** + **Burn Down**, após alguns Sprints, você terá a velocidade constante do time e assim poderá mensurar o desempenho individual. Dependendo da fase do projeto você saberá se é melhor adicionar ou remover pessoas do projeto para atingir determinado "goal"!
   5. **Time-boxing:** Apesar de haver muitas reuniões durante a utilização do Scrum o **time-boxing** para cada uma das cerimônias é algo primordial para manter o time focado e não perder tempo, pois a maioria das reuniões longas desviam-se do assunto principal.
 
 ##### Planning Poker
 
   ![Planning Poker](https://raw.githubusercontent.com/zekitow/scrum-workshop/master/imgs/02.planning-poker.jpg)
+  
+  **Planning Poker:** Determina o esforço para desenvolver uma determinada tarefa, onde os desenvolvedores pontuam e dicutem como será implementada cada feature e assim fica possível mensurar a quantidade de tarefas que haverá no Sprint.
   * Conceito de **Épico**!
   
-
 ##### Kanban
 
   ![Kanban](https://raw.githubusercontent.com/zekitow/scrum-workshop/master/imgs/03.kanban.jpg)
+   **Kanban:** O famoso TO-DO / Working / Testing / Done!
+
+##### Kanban
+
+  ![Burn Down](https://raw.githubusercontent.com/zekitow/scrum-workshop/master/imgs/05.burndown.jpg)
+  **Burn Down:** Mede o progresso do sprint e dá indicativos do processo de trabalho da equipe
+
+##### Velocidade do time
+
+  ![Velocidade do Time](https://raw.githubusercontent.com/zekitow/scrum-workshop/master/imgs/04.velocity.jpg)
+  **Velocidade do time:** Aplicando o **Planning Poker** + **Burn Down**, após alguns Sprints, você terá a velocidade constante do time e assim poderá mensurar o desempenho individual. Dependendo da fase do projeto você saberá se é melhor adicionar ou remover pessoas do projeto para atingir determinado "goal"!
