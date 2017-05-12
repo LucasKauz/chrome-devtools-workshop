@@ -112,3 +112,8 @@
   ![Velocidade do Time](https://raw.githubusercontent.com/zekitow/scrum-workshop/master/imgs/06.time-boxing.jpg)
 
   Apesar de haver muitas reuniões durante a utilização do Scrum o **time-boxing** para cada uma das cerimônias é algo primordial para manter o time focado e não perder tempo, pois a maioria das reuniões longas desviam-se do assunto principal.
+
+## CASE - Editora Abril
+
+  Explicar como foi implantado e o que devemos esperar das pessoas ao iniciar com Scrum e Agile.
+
