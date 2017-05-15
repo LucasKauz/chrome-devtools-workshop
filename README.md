@@ -91,7 +91,12 @@
 
 # CASE - Editora Abril
 
+  ![Meme](https://raw.githubusercontent.com/zekitow/scrum-workshop/master/imgs/07.meme.jpg)
+
   Em 2011/2012, a Editora Abril começou a exigir Scrum em todos os projetos de TI, esta diretiva veio do diretor da área digital na época (Manoel Lemos).
 
-  No início havia resistência ao processo e mudança de cultura da empresa, pois as pessoas não podiam mais passar demandas não planejadas ao time, e isso gerou uma série de discussões.
+  Surgiram comentários como:
 
+  * Tantas reuniões são perda de tempo
+  * Os desenvolvedores não são pró-ativos (recusam demandas não planejadas)
+  * Quero que seja feito X, Y, Z em 2 dias e não apenas X e Y em 10!
