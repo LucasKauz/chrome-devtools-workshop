@@ -13,7 +13,7 @@
 # Papéis
 
   1. **Product Owner:** Define o roadmap do produto e prioridade do que deve ser desenvolvido;
-  2. **Scrum Master:** Garante que o scrum está sendo implementado da maneira certa, remove impedimentos, facilita a vida do time, mas não é chefe, é brother!
+  2. **Scrum Master:** Garante que o scrum está sendo implementado da maneira certa, remove impedimentos, facilita a vida do time, mas não é chefe!
   3. **Devs!** Quem define como tudo será desenvolvido e põe a mão na massa. A idéia é que o time seja auto-suficiente e auto-gestor do projeto.
 
 # Eventos e Cerimônias
