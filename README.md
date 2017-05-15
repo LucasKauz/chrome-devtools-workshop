@@ -4,13 +4,11 @@
 
 É um framework simples para gerenciar projetos
 
-# Existem 3 pilares fundamentais
+# Objetivo
 
-1. **Transparência:** Nos processos, desenvolvimento e status do projeto
+  Ter controle e transparência durante o ciclo de desenvolvimento de um produto, através de iterações que tragam valores de negócio rapidamente.
 
-2. **Inspeção:** Nos artefatos gerados para evitar variações ou desvios indesejáveis.
-
-3. **Adaptação:** Tanto do processo de gestão como do produto que está sendo criado.
+  ![Como fazer](https://raw.githubusercontent.com/zekitow/scrum-workshop/master/imgs/00.agilecar.png)
 
 # Fundamentos
 
