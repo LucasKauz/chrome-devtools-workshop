@@ -55,7 +55,7 @@
   * **Time** e **Scrum Master** fazem uma retrospectiva do **Sprint** (máximo de 1 hora)
   * Voltamos ao primeiro passo
 
-# Ferramentas Auxiliáres e métricas
+# Ferramentas Auxiliares e métricas
 
 ## Planning Poker
 
@@ -89,14 +89,34 @@
 
   Apesar de haver muitas reuniões durante a utilização do Scrum o **time-boxing** para cada uma das cerimônias é algo primordial para manter o time focado e não perder tempo, pois a maioria das reuniões longas desviam-se do assunto principal.
 
+
+# Por onde iniciar?
+
+  1. Definir responsabilidades (P.O., Scrum Master, Time)
+  2. Executar todas as cerimônias (Planning, Grooming, Daily, Review, Retrospectiva)
+  3. Quantificar e acompanhar a evolução do Produto e Backlog
+  4. Ter em mente que ferramentas **não são mais importantes** que pessoas e processos
+  5. Não planejar 100% do produto antes de iniciar o desenvolvimento
+  6. Entender que ser ágil não é entregar rápido, mas sim, adaptar-se rapidamente
+  7. Trabalhar em equipe
+  8. Definir "DONE"
+  9. Definir a pontuação
+  10. Começar!
+
+
+<!-- 
 # CASE - Editora Abril
 
   ![Meme](https://raw.githubusercontent.com/zekitow/scrum-workshop/master/imgs/07.meme.jpg)
 
-  Em 2011/2012, a Editora Abril começou a exigir Scrum em todos os projetos de TI, esta diretiva veio do diretor da área digital na época (Manoel Lemos).
+  Em 2011/2012, a Editora Abril começou a exigir Scrum em todos os projetos de TI, esta diretiva veio do diretor digital na época.
+
+  A mudança cultural trouxe novos desafios para os times e os envolvidos.
 
   Surgiram comentários como:
 
   * Tantas reuniões são perda de tempo
   * Os desenvolvedores não são pró-ativos (recusam demandas não planejadas)
   * Quero que seja feito X, Y, Z em 2 dias e não apenas X e Y em 10!
+  * Os desenvolvedores estão enrrolando
+ -->
