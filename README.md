@@ -10,36 +10,13 @@
 
   ![Como fazer](https://raw.githubusercontent.com/zekitow/scrum-workshop/master/imgs/00.agilecar.png)
 
-# Fundamentos
-
-## Papeis
-
-  1. Product Owner
-  2. Scrum Master
-  3. Devs!
-
-## Eventos ou Cerimônias
-
-  1. Definição do backlog
-  2. Grooming, Planning e definição do Sprint
-  3. Execução do Sprint
-  4. Daily Meeting
-  5. Sprint Review
-  6. Retrospectiva
-
-## Artefatos
-
-  1. Product Backlog
-  2. Sprint Backlog
-  3. Entrega parcial do produto
-
-### PAPEIS
+# Papéis
 
   1. **Product Owner:** Define o roadmap do produto e prioridade do que deve ser desenvolvido;
   2. **Scrum Master:** Garante que o scrum está sendo implementado da maneira certa, remove impedimentos, facilita a vida do time, mas não é chefe, é brother!
   3. **Devs!** Quem define como tudo será desenvolvido e põe a mão na massa. A idéia é que o time seja auto-suficiente e auto-gestor do projeto.
 
-### Cerimônias
+# Eventos e Cerimônias
 
   1. **Definição do backlog:**
     Definir e priorizar as histórias (funcionalidades) com o Scrum Master (coach) e o time, elegendo as de maior valor de negócio primeiro. Neste ponto, deve-se separar as funcionalidade em pelo menos 3 categorias (Imprescindível, Importante, seria bom ter).
