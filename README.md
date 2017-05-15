@@ -16,6 +16,8 @@
   2. **Scrum Master:** Garante que o scrum está sendo implementado da maneira certa, remove impedimentos, facilita a vida do time, mas não é chefe!
   3. **Devs!** Quem define como tudo será desenvolvido e põe a mão na massa. A idéia é que o time seja auto-suficiente e auto-gestor do projeto.
 
+  ![Time](https://raw.githubusercontent.com/zekitow/scrum-workshop/master/imgs/actos/scrum-team.jpg)
+
 # Eventos e Cerimônias
 
   1. **Definição do backlog:**
