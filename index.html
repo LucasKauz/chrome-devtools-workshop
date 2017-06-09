@@ -1,12 +1,12 @@
 <html lang="pt-BR">
   <head>
     <meta charset="utf-8" />
-    <title>Scrum Workshop</title>
-    <meta name="description" content="Scrum Workshop presentation.">
+    <title>Chrome Devtools Workshop</title>
+    <meta name="description" content="Chrome Devtools presentation.">
     <meta name="author" content="José Ribeiro Filho">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/reveal.js/3.0.0/css/reveal.min.css" />
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/reveal.js/3.0.0/css/theme/black.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/reveal.js/3.0.0/css/theme/league.css" />
     <style>
       .reveal section img {
         background:none;
@@ -14,16 +14,48 @@
         box-shadow:none;
       }
       .center {
-        text-align: center;
+        /*text-align: center;*/
+      }
+      ul li {
+        list-style:none;
+      }
+      ul.readable-lists {
+        line-height: 1.9;
+      }
+      .long-texts {
+        text-align: left;
+        font-size: 1em;
       }
 
-      ul {
-        -webkit-column-count: 3;
-        -moz-column-count: 3;
-        column-count: 3;
+      .badge {
+        font-size: 13px;
+        vertical-align: middle;
+        padding: 5px;
+        background: #333;
+        border-radius: 3px;
+        text-align: center;
+        line-height: 1;
+        color: #fff;
+        text-transform: uppercase;
+        font-weight: 900;
+        text-decoration: none;
+        font-style: normal;
+        margin-right: 9px;
+        box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.25);
+        display: inline-block;
       }
-      li {
-        list-style: none;
+      .badge.hacker{
+        background: url(https://media.giphy.com/media/S4HKH9KgRGMdq/giphy.gif) #000;
+        color: #42ff42;
+      }
+      .badge.tip{
+        background: green;
+      }
+      .badge.hot{
+        background: red;
+      }
+      .badge.new{
+        background: blue;
       }
 
     </style>
@@ -33,313 +65,167 @@
       <div class="slides">
         <!-- slide 1 -->
         <section>
-          <h1>scrum-workshop</h1>
-          <p>zekitow @ GC Talk</p>
+          <h2>Chrome</h2>
+          <h1>Dev Tools</h1>
+          <p>Lucas @ Talk</p>
           <p><small>2017</small></p>
         </section>
 
-        <!-- slide 2 -->
         <section>
-          <h2>Como será apresentado?</h2>
-          <p class="fragment zoom-in">Conceitos</p>
-          <p class="fragment zoom-in">Ferramentas</p>
-          <p class="fragment zoom-in">Por onde começar?</p>
-          <p class="fragment zoom-in">Espaço para responder dúvidas?</p>
-        </section>
-
-        <!-- inicio: Curiosidades -->
-        <!-- slide 3 -->
-        <section data-background-color="#000000">
-          <h1>Curiosidade</h1>
-          <p class="fragment zoom-in">Foi criado pela Toyota</p>
-          <p class="fragment zoom-in">Inicialmente usado para produção de carros</p>
-          <p class="fragment zoom-in">Hoje é amplamente utilizado em T.I.</p>
-        </section>
-        <!-- fim: Curiosidades -->
-
-        <!-- inicio: Quem usa -->
-        <!-- slide 4 -->
-        <section data-background-color="#55286F">
-          <h2>Quem usa?</h2>
-
-          <ul class="fragment zoom-in">
-            <li>Google</li>
-            <li>Microsoft</li>
-            <li>EA Games</li>
-            <li>Valve</li>
-            <li>ADOBE</li>
-            <li>AMD</li>
-            <li>Intel</li>
-            <li>NVIDIA</li>
-            <li>Novell</li>
-            <li>CNN</li>
-            <li>Cannon</li>
-            <li>Nokia</li>
-            <li>Sony</li>
-            <li>Oracle</li>
-            <li>Motorola</li>
-            <li>YAHOO!</li>
-            <li>Philips</li>
-            <li>Borland</li>
-            <li>Lego</li>
-            <li>Xerox</li>
-            <li>Deutsche Bank</li>
-          </ul>
-
-        </section>
-
-        <!-- slide 5 -->
-        <section data-background-color="#55286F">
-          <h2>No Brasil</h2>
-          <ul class="fragment zoom-in">
-            <li>Bluesoft *</li>
-            <li>Editora Abril</li>
-            <li>ThoughtWorks Brasil</li>
-            <li>Google Brasil</li>
-            <li>YAHOO! Brasil</li>
-            <li>Amazon Brasil</li>
-            <li>Globo.com</li>
-            <li>UOL</li>
-            <li>GOL</li>
-            <li>Locaweb</li>
-            <li>Caelum</li>
-            <li>Ci&T</li>
-            <li>Cesar</li>
-            <li>GoNow</li>
-            <li>Pitang Agile IT</li>
-            <li>Lambda3</li>
-            <li>Webgoal</li>
-            <li>Kleer</li>
-            <li>Paggo</li>
-            <li>TeamWare</li>
-            <li>ImproveIt</li>
-          </ul>
-        </section>
-        <!-- fim: Quem usa -->
-
-        <!-- slide 6 -->
-        <section>
-          <h2>O que é Scrum?</h2>
-          <p class="fragment zoom-in">É um framework simples</p>
-          <p class="fragment zoom-in">Para gerenciar projetos complexos</p>
-        </section>
-
-        <!-- slide 7 -->
-        <section>
-          <h2>Objetivo</h2>
-          <p class="fragment zoom-in">Controle</p>
-          <p class="fragment zoom-in">Transparência</p>
-          <p class="fragment zoom-in">Valores de negócio</p>
-          <p class="fragment zoom-in">Redução de custos</p>
+          <h1>Bem vindos!</h1>
+          <h3>Teremos salgados!*</h3>
+          <h3>Teremos doces!**</h3>
+          <p>
+            <small style="font-size:13px">* Não teremos salgados</small>
+            <small style="font-size:13px">** Balas finni</small>
           </p>
         </section>
 
-        <!-- slide 8 -->
+
         <section>
-          <h2>Como funciona?</h2>
-          <p class="fragment zoom-in">Desenvolvimento cíclico e constante</p>
-          <img class="fragment zoom-in" src="https://raw.githubusercontent.com/zekitow/scrum-workshop/master/imgs/00.agilecar.png" height="50%" />
+          <h2>Mude a cor de seu facebok</h2>
+          <p class="fragment fade-up">Fundamentos</p>
+          <p class="fragment fade-up">Inspetor de elementos</p>
+          <p class="fragment fade-up">Console</p>
+          <p class="fragment fade-up">Performance</p>
+          <p class="fragment fade-up">Source e Network</p>
+          <p class="fragment fade-up">Dúvidas</p>
         </section>
 
-        <!-- inicio: Papeis -->
-        <!-- slide 9 -->
-        <section data-background-color="#424B54">
-          <h1>Papéis</h1>
-          <h3 class="fragment zoom-in">Product Owner ou P.O.</h3>
-          <h3 class="fragment zoom-in">Scrum Master</h3>
-          <h3 class="fragment zoom-in">Scrum Developer</h3>
+
+
+        <section data-background-color="#3f7fc0" data-background-transition="zoom">
+          <h1>Fundamentos</h1>
+          <p class="fragment fade-left">F12, Ctrl+Shift+I, Cmd+Opt+I, ou inspecionar elementos</p>
+          <p class="fragment fade-right"><i class="badge hot">HOT</i>Possui a versão dark</p>
+          <p class="fragment fade-left"><i class="badge hacker">hackudo</i>Possui experimentos</p>
+          <p class="fragment fade-right">Uma ferramenta para auxiliar os desenvolvedores</p>
+          <p class="fragment fade-left">Um gerenciador client-side</p>
+          <p class="fragment fade-right">Muito, MUITO pela frente: Sensores, Remote debug, full page screenshot...</p>
         </section>
 
-        <!-- slide 10 -->
-        <section data-background-color="#424B54">
-          <h2>Ou seja...</h2>
-          <img class="fragment zoom-in" src="https://raw.githubusercontent.com/zekitow/scrum-workshop/master/imgs/actors/scrum-team.jpg" height="50%" />
-          <p class="fragment zoom-in">Darth Vader: P.O.</p>
-          <p class="fragment zoom-in">Boba: Scrum Master</p>
-          <p class="fragment zoom-in">Stormtroopers: Scrum Developer</p>
-        </section>
-        <!-- fim: Papeis -->
 
-        <!-- inicio: Eventos ou Cerimônias -->
-        <!-- slide 11 -->
-        <section data-background-color="#55286F">
-          <h1>Eventos ou Cerimônias</h1>
+
+        <section data-background-color="#e32f30">
+          <h2>Inspetor de elementos</h2>
         </section>
 
-        <!-- slide 12 -->
-        <section data-background-color="#55286F">
-          <p>Sprint</p>
-          <p class="fragment zoom-in">Planning / Grooming</p>
-          <p class="fragment zoom-in">Daily Meeting ou Stand-up</p>
-          <p class="fragment zoom-in">Sprint Review</p>
-          <p class="fragment zoom-in">Restrospectiva</p>
+        <section data-background-color="#e32f30">
+          <h3>Inspecionar elementos</h3>
+          <p class="fragment fade-up">Controlar o estado do elemento</p>
+          <p class="fragment fade-up">Gerenciar classes em grupo e adicionar novas</p>
+          <p class="fragment fade-up"><i class="badge hot">HOT</i>$0, $1, ...$4</p>
+          <p class="fragment fade-up">Posição das sombras e color picker</p>
+          <p class="fragment fade-up">Estilo computado e cascata</p>
+          <p class="fragment fade-up">Event listener</p>
+          <p class="fragment fade-up"><i class="badge tip">TIP</i>Alterar números: Control para centenas, shift para dezenas e alt para decimais</p>
         </section>
 
-        <!-- slide 13 -->
-        <section data-background-color="#55286F">
-          <h1>Visão Macro</h1>
-          <img src="https://raw.githubusercontent.com/zekitow/scrum-workshop/master/imgs/01.cycle.png" height="60%" />
+
+
+        <section data-background-color="#fcd309">
+          <h2 style="color:#000;">Console</h2>
         </section>
 
-        <!-- slide 14 -->
-        <section data-background-color="#940000">
-          <h2>Importante!</h2>
-          <p class="fragment zoom-in">TODAS AS CERIMÔNIAS TEM DEADLINE (TIME-BOX)</p>
-        </section>
-        <!-- fim: Eventos ou Cerimônias -->
-
-        <!-- inicio: Ferramentas do Scrum -->
-        <!-- slide 15 -->
-        <section data-background-color="#000000">
-          <h1>Ferramentas do Scrum</h1>
+        <section data-background-color="#fcd309" style="color:#000;">
+          <h3 style="color:#000;">Além do console.log</h3>
+          <p class="fragment zoom-in"><i class="badge tip">TIP</i>Acompanhar xhr (ajax)</p>
+          <p class="fragment zoom-in">Novo nivel de debug verbose</p>
+          <p class="fragment zoom-in"><i class="badge hacker">hackudo</i>clear(); inspect(); copy();</p>
+          <p class="fragment zoom-in">Busca dos itens visíveis</p>
+          <p class="fragment zoom-in">Console.</p>
         </section>
 
-        <!-- slide 16 -->
-        <section data-background-color="#000000">
-          <h2>Planning Poker</h2>
-          <img src="https://raw.githubusercontent.com/zekitow/scrum-workshop/master/imgs/02.planning-poker.jpg" height="35%" />
-          <p class="fragment zoom-in">Determina o esforço</p>
-          <p class="fragment zoom-in">Quebra as histórias em tarefas</p>
-          <p class="fragment zoom-in">Sequência Fibonacci (?, 0, 1/2, 1, 2, 3, 5, 8, 13, 21)</p>
-          <p class="fragment zoom-in">ÉPICOS!</p>
+        <section data-background-color="#fcd309" style="color:#000;">
+          <h2 style="color:#000;">Console</h2>
+          <ul class="readable-lists">
+            <li class="fragment zoom-in"><strong>.error</strong> faz o backtrace do erro e exibe como erro</li>
+            <li class="fragment zoom-in"><strong>.log</strong> pode ser estilizado e possuir multiplos itens</li>
+            <li class="fragment zoom-in"><strong>.info</strong> um aviso azul no console</li>
+            <li class="fragment zoom-in"><strong>.warn</strong> um aviso estilizado no console</li>
+            <li class="fragment zoom-in"><strong><i class="badge hacker">hackudo</i>.assert</strong> irá exibir mensagem se a expressão for falsa</li>
+            <li class="fragment zoom-in"><strong>.group e .groupEnd</strong> grupos de mensagens</li>
+            <li class="fragment zoom-in"><strong><i class="badge hot">HOT</i>.trace</strong> faz o backtrace do contexto atual</li>
+            <li class="fragment zoom-in"><strong><i class="badge hot">HOT</i>.time e .timeEnd</strong> para análise de tempo de blocos</li>
+          </ul>
         </section>
 
-        <!-- slide 17 -->
-        <section data-background-color="#000000">
-          <h2>Kanban</h2>
-          <img src="https://raw.githubusercontent.com/zekitow/scrum-workshop/master/imgs/03.kanban.jpg"  height="50%" />
-          <p class="fragment zoom-in">O famoso TO-DO / Working / Testing / Done!</p>
+        <section>
+          <h2>Estilização de console</h2>
+          <pre><code>console.log("%cSPRAY BOM", "text-transform:uppercase;color: RED; font-weight: bold; font-size: 1.5em");console.log("%cÉ NA", "text-shadow: 0px 1px 3px #000;text-transform:uppercase;color: #FFF; font-weight: bold; font-size: 1.5em");console.log("%cGamers Club", "text-shadow: 0px 1px 3px #000;text-transform:uppercase;color: #fff; font-weight: bold; font-size: 2em");</code></pre>
         </section>
 
-        <!-- slide 18 -->
-        <section data-background-color="#940000">
-          <h2>Importante!</h2>
-          <p class="fragment zoom-in">KABAN NÃO É SCRUM!</p>
-          <p class="fragment zoom-in">SCRUM NÃO É KABAN!</p>
+        <section data-background-color="#5570fb">
+          <h2>Performance</h2>
+          <p><audio src="./audio/pLevelUp.wav" controls></audio></p>
         </section>
 
-        <!-- slide 19 -->
-        <section data-background-color="#000000">
-          <h2>Burndown</h2>
-          <p class="fragment zoom-in">Mede e prevê desvios durante o Sprint</p>
-          <img class="fragment zoom-in" src="https://raw.githubusercontent.com/zekitow/scrum-workshop/master/imgs/04.burndown.jpg" height="50%" />
-        </section>
-        <!-- fim: Ferramentas do Scrum -->
-
-        <!-- inicio: Cenarios -->
-        <!-- slide 20 -->
-        <section data-background-color="#424B54">
-          <h1>Cenários</h1>
-        </section>
-
-        <!-- slide 21 -->
-        <section data-background-color="#424B54">
-          <h2>Bugs em Produção</h2>
-          <p class="fragment zoom-in">Todo Sprint tem margem para emergências</p>
+        <section data-background-color="#5570fb">
+          <h2>Análise Visual</h2>
+          <div class="long-texts">
+            <p class="fragment zoom-in"><i class="badge tip">TIP</i> Para acessar o quick panel clique ESC</p>
+            <p class="fragment zoom-in">Rendering</p>
+            <ul class="long-texts">
+              <li class="fragment zoom-in"><strong><i class="badge hot">HOT</i>Paint flashing</strong> mostra as áreas atualizadas no DOM quando uma alteração acontece</li>
+              <li class="fragment zoom-in"><strong><i class="badge hacker">HACKUDO</i>FPS Meter</strong> Mostra seu fps, memória e GPU, assim como em um jogo</li>
+            </ul>
+            <p class="fragment zoom-in">Animations mostra todas propriedades alteradas de uma animação de maneira editável e com screenshot</p>
+          </div>
         </section>
 
-        <!-- slide 22 -->
-        <section data-background-color="#424B54">
-          <h3>Quando os bugs são complexos</h3>
-          <p class="fragment zoom-in">Definimos uma história</p>
-          <p class="fragment zoom-in">Pontuamos</p>
-          <p class="fragment zoom-in">Adicionamos no Sprint</p>
-          <p class="fragment zoom-in">Executamos</p>
-          <p class="fragment zoom-in">Em último caso, o Sprint pode falir</p>
-          <p class="fragment zoom-in">O bug <strong>DEVE</strong> ser discutido na <strong>RETROSPECTIVA</strong></p>
+        <section data-background-color="#5570fb">
+          <h2>Análise de Arquivos</h2>
+          <div class="long-texts">
+            <p class="fragment zoom-in">Coverage irá mostrar pedaços não usados de seu código javascript</p>
+            <p class="fragment zoom-in">Audit irá exibir regras css não utilizadas na página e dicas de performance</p>
+            <p class="fragment zoom-in">PageSpeed for Google Chrome faz uma análise semelhante ao online</p>
+            <p class="fragment zoom-in">O PageSpeed te oferece os arquivos resultantes de compactação para baixar como zip</p>
+          </div>
         </section>
 
-        <!-- slide 23 -->
-        <section data-background-color="#424B54">
-          <h2>Posso mudar o Sprint atual?</h2>
-          <p class="fragment zoom-in">Mas a pontuação deve ser respeitada</p>
-          <p class="fragment zoom-in">Exemplo:</p>
-          <p class="fragment zoom-in">Se saem 3 pontos</p>
-          <p class="fragment zoom-in">Cabem 3 pontos no Sprint</p>
+        <section data-background-color="#5570fb">
+          <h2>Performance</h2>
+          <div class="long-texts">
+            <p class="fragment zoom-in">Será exibido</p>
+            <p class="fragment zoom-in">PageSpeed for Google Chrome faz uma análise semelhante ao online</p>
+            <p class="fragment zoom-in">O PageSpeed te oferece os arquivos resultantes de compactação para baixar como zip</p>
+          </div>
         </section>
 
-        <!-- slide 24 -->
-        <section data-background-color="#424B54">
-          <h2>Precisamos entregar mais rápido!</h2>
-          <p class="fragment zoom-in">SCRUM mede capacidade produtiva individual</p>
-          <p class="fragment zoom-in">Mais pessoas, mais pontos entregues</p>
-          <p class="fragment zoom-in">NÃO É ACONSELHÁVEL MUDAR O TIME CONSTANTEMENTE</p>
-        </section>
-        <!-- fim: Cenarios -->
-
-        <!-- inicio: Por onde começar? -->
-        <!-- slide 25 -->
-        <section data-background-color="#006600">
-          <h1>Por onde começar?</h1>
+        <section data-background-color="#5570fb">
+          <h2>Debug</h2>
+          <div class="long-texts">
+            <p class="fragment zoom-in"><i class="badge hacker">hackudo</i> debugger;</p>
+            <p class="fragment zoom-in"><i class="badge hacker">hackudo</i> debugger;</p>
+          </div>
         </section>
 
-        <!-- slide 24 -->
-        <section data-background-color="#006600">
-          <h2>1. Definir</h2>
-          <p class="fragment zoom-in">Quem é o P.O.</p>
-          <p class="fragment zoom-in">Quem é o Scrum Master</p>
-          <p class="fragment zoom-in">Quem é o time</p>
-          <p class="fragment zoom-in">Definir o conceito de "DONE"</p>
-          <p class="fragment zoom-in">Definir a pontuação</p>
+
+        <section data-background-color="#5570fb">
+          <h2>Source e Network</h2>
         </section>
 
-        <!-- slide 26 -->
-        <section data-background-color="#006600">
-          <h2>2. Executar</h2>
-          <p class="fragment zoom-in">Backlog</p>
-          <p class="fragment zoom-in">Grooming / Planning</p>
-          <p class="fragment zoom-in">Daily Meeting</p>
-          <p class="fragment zoom-in">Review</p>
-          <p class="fragment zoom-in">Retrospectiva</p>
+        <section data-background-color="#5570fb">
+          <h2>Source</h2>
+          <div class="long-texts">
+            <p class="fragment zoom-in"><i class="badge hacker">hackudo</i>Control+shit+P e cmd+opt+P faz uma busca por arquivos e funções do chrome</p>
+            <p class="fragment zoom-in"><i class="badge hot">HOT</i>Snippets são pedaços de códigos salvos em seu navegador e executados manualmente</p>
+            <p class="fragment zoom-in">Você pode formatar um arquivo utilizando o símbolo {} no canto inferior</p>
+            <p class="fragment zoom-in"><i class="badge tip">TIP</i>Quick source permite acessar arquivos sem sair do painel atual</p>
+          </div>
         </section>
 
-        <!-- slide 27 -->
-        <section data-background-color="#006600">
-          <h2>3. Acompanhar</h2>
-          <p class="fragment zoom-in">A velocidade do Time</p>
-          <p class="fragment zoom-in">A evolução do Produto</p>
-          <p class="fragment zoom-in">O custo de desenvolvimento</p>
-        </section>
-        <!-- fim: Por onde começar? -->
-
-        <!-- inicio: Observacoes -->
-        <!-- slide 28 -->
-        <section data-background-color="#55286F">
-          <h1>
-            Observações <br> antes de começar
-          </h1>
+        <section data-background-color="#5570fb">
+          <h2>Network</h2>
+          <p class="fragment zoom-in">Screenshot de etapas do rendering</p>
+          <p class="fragment zoom-in">Filtro de tipo de requisição</p>
+          <p class="fragment zoom-in">Websocket: você pode acompanhar os "frames" do websocket</p>
+          <p class="fragment zoom-in">Você pode simular uma internet lenta</p>
+          <p class="fragment zoom-in"><i class="badge new">NEW</i> Você pode bloquear recursos</p>
+          <p class="fragment zoom-in">Você não consegue simular internet para um websocket <i class="badge">: (</i></p>
         </section>
 
-        <!-- slide 29 -->
-        <section data-background-color="#55286F">
-          <h2>É uma mudança cultural</h2>
-          <p class="fragment zoom-in">Resistência</p>
-          <p class="fragment zoom-in">Dúvidas</p>
-          <p class="fragment zoom-in">Discussões</p>
-        </section>
 
-        <!-- slide 30 -->
-        <section data-background-color="#55286F">
-          <h2>Mas...</h2>
-          <p class="fragment zoom-in"><strong>Previsibilidade</strong></p>
-          <p class="fragment zoom-in"><strong>Transparência</strong></p>
-          <p class="fragment zoom-in"><strong>Entregas rápidas</strong></p>
-          <p class="fragment zoom-in"><strong>Alinhamento entre Business e TI</strong></p>
-          <p class="fragment zoom-in"><strong>Redução de custos</strong></p>
-        </section>
-
-        <!-- slide 31 -->
-        <section data-background-color="#940000">
-          <h2>É Importante saber</h2>
-          <p class="fragment zoom-in">Que é um trabalho em equipe</p>
-          <p class="fragment zoom-in">Que as pessoas e os processos são importantes!</p>
-          <p class="fragment zoom-in">Que ser ágil é adaptar-se rapidamente</p>
-          <p class="fragment zoom-in">Regra 80/20</p>
-          <p class="fragment zoom-in">80% da receita vem de 20% das features</p>
-          <p class="fragment zoom-in">80% das features são raramente utilizadas</p>
-          <p class="fragment zoom-in">Não faz sentido desenvolver o que não é usado</p>
-        </section>
-        <!-- fim: Observacoes -->
 
         <!-- slide 32 -->
         <section>
@@ -361,13 +247,9 @@
           <p><a target="_blank" href="https://www.dzone.com/">dzone.com</a></p>
         </section>
 
-        <!-- slide 35 -->
-        <section>
-          <h1>Obrigado</h1>
-        </section>
-
       </div>
     </div>
+    <script src="./zoom.js"></script>
     <script src="https://cdn.jsdelivr.net/reveal.js/3.0.0/js/reveal.min.js"></script>
     <script>
 
@@ -375,15 +257,10 @@
         controls: true,
         progress: true,
         history: true,
-        center: true
+        center: true,
+        transition: 'concave'
       });
 
-      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-      ga('create', 'UA-99269974-1', 'auto');
-      ga('send', 'pageview');
     </script>
   </body>
 </html>
